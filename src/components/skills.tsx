@@ -3,7 +3,7 @@ type SkillProps = {
   icon: React.FC<React.SVGProps<SVGSVGElement>>;
 };
 
-const Skill = ({ id, icon: Icon }: SkillProps): JSX.Element => {
+const Skill = ({ icon: Icon }: SkillProps): JSX.Element => {
   return (
     <div className="flex h-12 w-12 items-center justify-center text-[40px] hover:text-5xl hover:drop-shadow-sm">
       <Icon />

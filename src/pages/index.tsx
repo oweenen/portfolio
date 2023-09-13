@@ -25,7 +25,6 @@ import {
   PostgresIcon,
   Neo4jIcon,
 } from "../components/icons";
-import Project from "~/components/project";
 
 export default function Home() {
   return (
@@ -80,7 +79,7 @@ export default function Home() {
         </a>
         <div className="flex min-h-screen w-full max-w-5xl flex-col items-start justify-center gap-8 py-32">
           <span className="whitespace-nowrap text-5xl font-bold">
-            Hi, I'm Owen
+            {"Hi, I'm Owen"}
           </span>
           <div className="relative h-0">
             <PlusIcon className="absolute bottom-[-20px] left-[-35px] text-4xl" />
